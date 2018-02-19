@@ -8,7 +8,8 @@ object frmChart: TfrmChart
   Caption = 'U Chart'
   ClientHeight = 450
   ClientWidth = 800
-  LCLVersion = '1.8.0.6'
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
   object chrVoltages: TChart
     Left = 0
     Height = 450
@@ -20,6 +21,7 @@ object frmChart: TfrmChart
         Range.Max = 4.5
         Range.Min = 2.5
         Range.UseMax = True
+        Range.UseMin = True
         Title.LabelFont.Orientation = 900
       end    
       item
@@ -35,12 +37,9 @@ object frmChart: TfrmChart
     )
     Align = alClient
     object cbsVoltages: TBarSeries
+      AxisIndexX = 1
+      AxisIndexY = 0
       BarBrush.Color = clRed
-      Source = chsVoltages
     end
-  end
-  object chsVoltages: TListChartSource
-    left = 8
-    top = 8
   end
 end

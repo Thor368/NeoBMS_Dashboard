@@ -9,5 +9,4 @@ This is a more clearly laid out version of the former Diagtool. You can use this
 - optimized for touch control
 
 # TODO
-- find out why chart ignores min property
 - figure how to recover from connection loss

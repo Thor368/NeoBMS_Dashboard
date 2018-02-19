@@ -15,7 +15,7 @@ type
   TfrmChart = class(TForm)
     chrVoltages: TChart;
     cbsVoltages: TBarSeries;
-    chsVoltages: TListChartSource;
+    procedure FormCreate(Sender: TObject);
   private
 
   public
@@ -31,21 +31,33 @@ implementation
 
 { TfrmChart }
 
+procedure TfrmChart.FormCreate(Sender: TObject);
+var
+  i: integer;
+begin
+{  cbsVoltages.Clear;
+
+  Randomize;
+  for i:= 0 to 20 do
+    cbsVoltages.AddXY(i, Random*1.7+2.5);
+}
+end;
+
 procedure TfrmChart.updateChart(frame: TFrame);
 var
   i, cellcount: integer;
 begin
   cellcount:= frame.getCellCount;
 
-  if cellcount <> chsVoltages.Count then
+  if cellcount <> cbsVoltages.Count then
   begin
-    chsVoltages.Clear;
+    cbsVoltages.Clear;
     for i:= 0 to cellcount-1 do
-      chsVoltages.Add(i, 0);
+      cbsVoltages.AddXY(i, 0);
   end;
 
   for i:= 0 to cellcount-1 do
-    chsVoltages.SetYValue(i, frame.getCellU(i));
+    cbsVoltages.SetYValue(i, frame.getCellU(i));
 end;
 
 end.
