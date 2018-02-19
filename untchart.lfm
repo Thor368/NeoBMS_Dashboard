@@ -1,0 +1,46 @@
+object frmChart: TfrmChart
+  Left = 358
+  Height = 450
+  Top = 171
+  Width = 800
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'U Chart'
+  ClientHeight = 450
+  ClientWidth = 800
+  LCLVersion = '1.8.0.6'
+  object chrVoltages: TChart
+    Left = 0
+    Height = 450
+    Top = 0
+    Width = 800
+    AxisList = <    
+      item
+        Minors = <>
+        Range.Max = 4.5
+        Range.Min = 2.5
+        Range.UseMax = True
+        Title.LabelFont.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+    object cbsVoltages: TBarSeries
+      BarBrush.Color = clRed
+      Source = chsVoltages
+    end
+  end
+  object chsVoltages: TListChartSource
+    left = 8
+    top = 8
+  end
+end

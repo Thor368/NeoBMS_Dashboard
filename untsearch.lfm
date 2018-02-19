@@ -1,0 +1,40 @@
+object frmSearch: TfrmSearch
+  Left = 257
+  Height = 89
+  Top = 135
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'NeoBMS Dashboard'
+  ClientHeight = 89
+  ClientWidth = 320
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.8.0.6'
+  object lblConnectStatus: TLabel
+    Left = 16
+    Height = 63
+    Top = 16
+    Width = 290
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'No Device'#13#10'(click to search again)'
+    Color = clRed
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+    OnClick = lblConnectStatusClick
+  end
+  object tmrConnect: TTimer
+    Interval = 100
+    OnTimer = tmrConnectTimer
+    left = 12
+    top = 16
+  end
+end

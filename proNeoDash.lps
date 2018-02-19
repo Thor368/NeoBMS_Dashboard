@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="proNeoDash.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="16"/>
+        <UsageCount Value="29"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="untsearch.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSearch"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="untSearch"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="untcom.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="untCOM"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="271"/>
+        <CursorPos X="22" Y="289"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="untdash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="untDash"/>
+        <TopLine Value="72"/>
+        <CursorPos X="67" Y="97"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="untcmd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCMD"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="untCMD"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="10" Y="52"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="untchart.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChart"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="untChart"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="22"/>
+        <CursorPos X="52" Y="39"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="unttypes.pas"/>
+        <UnitName Value="untTypes"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="25"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\24_Vogelsang\03_Te_Elektrik\Bürstenfeuer\untsample.pas"/>
+        <UnitName Value="untSample"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="15" Y="30"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\24_Vogelsang\03_Te_Elektrik\Bürstenfeuer\unttypes.pas"/>
+        <UnitName Value="untTypes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos Y="56"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\old\untmain.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="untMain"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="267"/>
+        <CursorPos X="3" Y="269"/>
+        <UsageCount Value="12"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="863"/>
+        <CursorPos Y="878"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="136"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2807"/>
+        <CursorPos Y="2831"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\old\untmain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21" Y="13"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2222"/>
+        <CursorPos Y="2236"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos X="11" Y="70"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="45" Column="32" TopLine="41"/>
+      </Position1>
+      <Position2>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="29" Column="15" TopLine="14"/>
+      </Position2>
+      <Position3>
+        <Filename Value="untdash.pas"/>
+        <Caret Line="66" Column="3" TopLine="64"/>
+      </Position3>
+      <Position4>
+        <Filename Value="untdash.pas"/>
+        <Caret Line="52" Column="15" TopLine="34"/>
+      </Position4>
+      <Position5>
+        <Filename Value="untdash.pas"/>
+        <Caret Line="98" Column="17" TopLine="72"/>
+      </Position5>
+      <Position6>
+        <Filename Value="untchart.pas"/>
+        <Caret Line="21" Column="15" TopLine="6"/>
+      </Position6>
+      <Position7>
+        <Filename Value="untchart.pas"/>
+        <Caret Line="41" Column="3" TopLine="21"/>
+      </Position7>
+      <Position8>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="95" Column="3" TopLine="75"/>
+      </Position8>
+      <Position9>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="69" Column="3" TopLine="64"/>
+      </Position9>
+      <Position10>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="20" Column="24" TopLine="8"/>
+      </Position10>
+      <Position11>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="48" Column="16" TopLine="43"/>
+      </Position11>
+      <Position12>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="23" Column="15" TopLine="5"/>
+      </Position12>
+      <Position13>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="55" TopLine="43"/>
+      </Position13>
+      <Position14>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="280" Column="14" TopLine="273"/>
+      </Position14>
+      <Position15>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="53" Column="16" TopLine="41"/>
+      </Position15>
+      <Position16>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="261" Column="3" TopLine="252"/>
+      </Position16>
+      <Position17>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="47" Column="16" TopLine="36"/>
+      </Position17>
+      <Position18>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="195" Column="3" TopLine="177"/>
+      </Position18>
+      <Position19>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="48" Column="17" TopLine="32"/>
+      </Position19>
+      <Position20>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="241" Column="17" TopLine="225"/>
+      </Position20>
+      <Position21>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="76" Column="28" TopLine="66"/>
+      </Position21>
+      <Position22>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="51" TopLine="51"/>
+      </Position22>
+      <Position23>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="246" Column="15" TopLine="225"/>
+      </Position23>
+      <Position24>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="32" Column="17" TopLine="16"/>
+      </Position24>
+      <Position25>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="242" Column="17" TopLine="235"/>
+      </Position25>
+      <Position26>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="39" Column="15" TopLine="15"/>
+      </Position26>
+      <Position27>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="249" Column="27" TopLine="235"/>
+      </Position27>
+      <Position28>
+        <Filename Value="untcom.pas"/>
+        <Caret Line="57" Column="28" TopLine="34"/>
+      </Position28>
+      <Position29>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="19" TopLine="6"/>
+      </Position29>
+      <Position30>
+        <Filename Value="untsearch.pas"/>
+        <Caret Line="18" TopLine="6"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

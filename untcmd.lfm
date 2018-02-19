@@ -1,0 +1,92 @@
+object frmCMD: TfrmCMD
+  Left = 257
+  Height = 450
+  Top = 135
+  Width = 225
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Commands'
+  ClientHeight = 450
+  ClientWidth = 225
+  LCLVersion = '1.8.0.6'
+  object cmdPing: TButton
+    Left = 8
+    Height = 49
+    Top = 8
+    Width = 211
+    Caption = 'Ping'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = cmdPingClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object cmdStdChg: TButton
+    Left = 8
+    Height = 48
+    Top = 72
+    Width = 211
+    Caption = 'Standard Charge'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = cmdStdChgClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object cmdFullChg: TButton
+    Left = 8
+    Height = 48
+    Top = 136
+    Width = 211
+    Caption = 'Full Charge'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = cmdFullChgClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object cmdStartChg: TButton
+    Left = 8
+    Height = 48
+    Top = 200
+    Width = 211
+    Caption = 'Start Charge'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = cmdStartChgClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object cmdBack: TButton
+    Left = 8
+    Height = 48
+    Top = 392
+    Width = 211
+    Caption = 'Back'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = cmdBackClick
+    ParentFont = False
+    TabOrder = 4
+  end
+end
