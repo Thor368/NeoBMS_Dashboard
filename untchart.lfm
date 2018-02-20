@@ -36,6 +36,7 @@ object frmChart: TfrmChart
       'TAChart'
     )
     Align = alClient
+    OnDblClick = chrVoltagesDblClick
     object cbsVoltages: TBarSeries
       AxisIndexX = 1
       AxisIndexY = 0

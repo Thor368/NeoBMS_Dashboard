@@ -15,6 +15,7 @@ type
   TfrmChart = class(TForm)
     chrVoltages: TChart;
     cbsVoltages: TBarSeries;
+    procedure chrVoltagesDblClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -41,6 +42,11 @@ begin
   for i:= 0 to 20 do
     cbsVoltages.AddXY(i, Random*1.7+2.5);
 }
+end;
+
+procedure TfrmChart.chrVoltagesDblClick(Sender: TObject);
+begin
+  Close;
 end;
 
 procedure TfrmChart.updateChart(frame: TFrame);
